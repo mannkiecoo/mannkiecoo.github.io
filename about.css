@@ -26,8 +26,14 @@ header {
   text-align: center;
 }
 
-#logo img {
-  max-width: 120px;
+#logo #bg {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background:url("profile.jpg");
+  background-position: bottom;
+  background-size:cover;
+  background-repeat: no-repeat;
   border: 5px solid #fff;
   border-radius: 100%;
 }
@@ -70,6 +76,10 @@ nav ul li a.selected {
   max-width: 800px;
   margin: -100px auto 0;
   background-color: #fff;
+}
+
+.container ul {
+  list-style-type: none;
 }
 
 section {
